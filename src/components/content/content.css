@@ -1,0 +1,75 @@
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+.content {
+    padding: 0 !important;
+    margin-left: 0;
+    height: 100vh;
+    background-color: #FAFAFE;
+    color: aliceblue;
+  }
+
+
+  button.btn.btn-secondary {
+    background-color: #ffff;
+    border-color: #ffff;
+  }
+
+  svg.svg-inline--fa.fa-align-justify.fa-w-14{
+    color:  #3C44B1;
+  }
+
+  svg.svg-inline--fa.fa-align-justify.fa-w-14:hover{
+    color: #383A59;
+  }
+
+  .noFlash {
+    /* Remove onclick Background Color Change */
+    /* REFERENCE: https://bit.ly/2Yc95wR */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .noFlash:focus {
+      /* Remove onclick Border Color Change */
+      /* REFERENCE: https://bit.ly/2KFgNG7 */
+      outline: none;
+      background-color: white!important;
+  }
+  
+  .btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  @media only screen and (max-width: 500px) {
+    body {
+      overflow: hidden;
+    }
+  
+    .content.is-open {
+      margin-left: 100%;
+    }
+  
+    .sidebar.is-open {
+      min-width: 100%;
+      max-width: 100%;
+      margin-left: 0;
+      transition: all 0.5s, height 0s;
+    }
+  
+    .sidebar.is-open > .sidebar-header span {
+      display: unset;
+    }
+  
+    li a.dropdown-toggle::after {
+      display: inline-block;
+      position: relative;
+      left: 68%;
+    }
+  }
+  

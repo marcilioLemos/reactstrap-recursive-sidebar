@@ -1,0 +1,110 @@
+/*---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background:#3B3E66;
+    color: #bcc2cd;
+    margin-left: -250px;
+    transition: all 0.5s;
+  }
+  
+  .sidebar.is-open {
+    margin-left: 0;
+    transition: 0.5s;
+  }
+  
+  .sidebar-header {
+    background: #3B3E66;
+    border-bottom: solid 1px;
+  }
+  
+  .sidebar-header h3 {
+    color: #bcc2cd;
+    padding: 1em;
+  }
+  
+  .sidebar ul p {
+    color: #bcc2cd;
+    padding: 10px;
+  }
+  
+  .menu-open {
+    background: #33365A;
+  }
+  
+  .nav-item:hover {
+    color: #FFFFFF;
+    background: #33365A;
+    transition: color .3s linear;
+  }
+  
+  .items-menu {
+    color: #bcc2cd;
+    background: #3B3E66;
+  }
+  
+  li a.dropdown-toggle::after {
+    display: inline-flex;
+    position: relative;
+    float: right;
+    margin-top: 0.4rem;
+  }
+  
+  .sidebar-header > span {
+    position: relative;
+    float: right;
+    margin: 0.5em;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+  }
+  .side-menu {
+    height: calc(100vh - 130px);
+    overflow-y: scroll;
+  }
+  
+  .side-menu::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .side-menu::-webkit-scrollbar-thumb {
+    background:#FFFFFF;
+    border-radius: 3px;
+  }
+  
+  .side-menu::-webkit-scrollbar-thumb:hover {
+    background: #FFFFFF;
+  }
+
+
+  img.logo-hazel {
+    max-width: 4.9rem;
+    margin-right: auto;
+    padding: 0.5rem;
+ }
+
+ h4.sidebar-title {
+    font-weight: bold;
+    text-align: center;
+    padding: 0.3rem;
+    color: #FFFFFF;
+ }
+
+ a.sidebar-link:hover {
+    color: #FFFFFF;
+    transition: color .3s linear;
+ }
+ 
+ a.sidebar-link {
+    color: #bcc2cd;
+ }
+
+ a.header-title{
+  color: white !important;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none !important;
+ }
+ 
