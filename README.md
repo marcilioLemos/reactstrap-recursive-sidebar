@@ -9,3 +9,5 @@ npm install
 ```
 npm start
 ```
+# Preview
+<a><img src="/preview.png"></img></a>
